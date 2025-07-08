@@ -1,0 +1,10 @@
+---
+title: Example demoing a possible issue with quarto render and documents including the embed shortcode
+format:
+  html:
+    embed-resources: true
+---
+
+* [Questions document](./tutorial-questions.html)
+* [Incorrect solutions document](./tutorial-solutions-incorrect.html)
+* [Correct solutions document](./tutorial-solutions.html)
