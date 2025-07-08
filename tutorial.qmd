@@ -1,0 +1,51 @@
+---
+format:
+  html:
+    embed-resources: true
+engine: knitr
+notebook-links: false
+---
+
+## Question 1
+
+This is the text for question 1, with its accompanying code 
+
+::: {.panel-tabset .nav-pills}
+
+## R
+
+```{r}
+# Example code for the question
+1 + 1
+```
+
+## Python
+
+{{< embed tutorial-python.qmd#python-q1 echo=true >}}
+
+:::
+
+:::: {.content-visible when-profile="solutions"}
+Text for the solution to question 1.
+
+You can include additional code chunks if required.
+
+::: {.panel-tabset .nav-pills}
+
+## R
+
+```{r}
+# Additional code chunk for the solution
+print("Hello, world!")
+```
+
+## Python
+
+{{< embed tutorial-python-combined.qmd#python-s1 echo=true >}}
+
+:::
+::::
+
+## Question 2
+
+This is the text for question 2 ...
