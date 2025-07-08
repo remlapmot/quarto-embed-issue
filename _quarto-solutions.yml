@@ -1,0 +1,8 @@
+project:
+  render:
+    - tutorial.qmd
+title: 'Solutions document: R and Python version'
+format:
+  html:
+    output-file: "tutorial-solutions"
+    output-ext:  "html"
