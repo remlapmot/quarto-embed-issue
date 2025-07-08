@@ -18,7 +18,8 @@ To generate the incorrect tutorial-solutions.html document run
 # Incorrect second render
 rm -rf .quarto/embed
 quarto render --profile questions
-quarto render --profile questions
+quarto render --profile solutions
+mv tutorial-solutions.html tutorial-solutions-incorrect.html
 ```
 
 To generate the correct tutorial-solutions.html document run
@@ -28,5 +29,5 @@ To generate the correct tutorial-solutions.html document run
 rm -rf .quarto/embed
 quarto render --profile questions
 rm -rf .quarto/embed
-quarto render --profile questions
+quarto render --profile solutions
 ```
