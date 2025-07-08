@@ -1,0 +1,27 @@
+---
+jupyter: python3
+---
+
+## Question 1
+
+This is the text for question 1, with its accompanying code 
+
+```{python}
+#| label: python-q1
+# Example code for the question
+1 + 1
+```
+
+Text for the solution to question 1.
+
+You can include additional code chunks if required.
+
+```{python}
+#| label: python-s1
+# Additional code chunk for the solution
+print("Hello, world!")
+```
+
+## Question 2
+
+This is the text for question 2 ...
