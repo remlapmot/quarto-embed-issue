@@ -41,7 +41,7 @@ print("Hello, world!")
 
 ## Python
 
-{{< embed tutorial-python-combined.qmd#python-s1 echo=true >}}
+{{< embed tutorial-python.qmd#python-s1 echo=true >}}
 
 :::
 ::::
